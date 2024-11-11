@@ -52,8 +52,9 @@ To read on the Documentations on Robot Framework and seleniumLibrary, visit:
 ## Running Test
 The directory is arranged as followed:
 1) config - Folder that holds all the robot files that shares keywords for all files to use
-2) pages- Folder that holds all the Test cases
-3) Tests - Folder that holds all the Test Scenerios 
+     - PromoCodeLibrary.py is a python file that generate the voucher code randomly
+3) Pages- Folder that holds all the Test cases
+4) Tests - Folder that holds all the Test Scenerios 
 
 To run the robot file, run this cmd line in the terminal: 
 ```javascript
