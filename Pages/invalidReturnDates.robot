@@ -13,7 +13,7 @@ User search for flights to Mars that return date is less than 1 year from the de
     Wait Until Element Is Visible    ${welcome_header}
     Element Should Be Visible        ${departing_label}
     Click Element                    ${departing_selectBox}
-    Click Element                    ${deapart_july}
+    Click Element                    ${depart_july}
     Element Should Be Visible        ${returning_label}
     Click Element                    ${returning_selectBox}
     Click Element                    ${return_dec} 
@@ -30,7 +30,7 @@ User search for flights to Mars that has same departing and returning date
     Wait Until Element Is Visible    ${welcome_header}
     Element Should Be Visible        ${departing_label}
     Click Element                    ${departing_selectBox}
-    Click Element                    ${deapart_july}
+    Click Element                    ${depart_july}
     Element Should Be Visible        ${returning_label}
     Click Element                    ${returning_selectBox}
     Click Element                    ${return_july}  
