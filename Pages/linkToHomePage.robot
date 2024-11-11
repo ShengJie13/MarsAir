@@ -14,7 +14,7 @@ Link to Home Page by clicking MarsAir logo
     Wait Until Element Is Visible    ${welcome_header}
     Element Should Be Visible        ${departing_label}
     Click Element                    ${departing_selectBox}
-    Click Element                    ${deapart_july}
+    Click Element                    ${depart_july}
     Element Should Be Visible        ${returning_label}
     Click Element                    ${returning_selectBox}
     Click Element                    ${return_dec2yearsfromnow}
@@ -32,7 +32,7 @@ Link to Home Page by clicking “Book a ticket to the red planet now!”
     Wait Until Element Is Visible    ${welcome_header}
     Element Should Be Visible        ${departing_label}
     Click Element                    ${departing_selectBox}
-    Click Element                    ${deapart_july}
+    Click Element                    ${depart_july}
     Element Should Be Visible        ${returning_label}
     Click Element                    ${returning_selectBox}
     Click Element                    ${return_dec2yearsfromnow}

@@ -7,7 +7,7 @@ ${welcome_header}                             //h2[text()="Welcome to MarsAir!"]
 
 ${departing_label}                            //label[text()="Departing"]
 ${departing_selectBox}                        //select[@id="departing"]
-${deapart_july}                               //select[@id="departing"]/option[text()="July"]
+${depart_july}                               //select[@id="departing"]/option[text()="July"]
 
 ${returning_label}                            //label[text()="Returning"]
 ${returning_selectBox}                        //select[@id="returning"]
@@ -28,7 +28,7 @@ User search for flights to Mars that returns more than next two years from now
     Wait Until Element Is Visible    ${welcome_header}
     Element Should Be Visible        ${departing_label}
     Click Element                    ${departing_selectBox}
-    Click Element                    ${deapart_july}
+    Click Element                    ${depart_july}
     Element Should Be Visible        ${returning_label}
     Click Element                    ${returning_selectBox}
     Click Element                    ${return_dec2yearsfromnow}
@@ -45,7 +45,7 @@ User search for flights to Mars that returns on the next year
     Wait Until Element Is Visible    ${welcome_header}
     Element Should Be Visible        ${departing_label}
     Click Element                    ${departing_selectBox}
-    Click Element                    ${deapart_july}
+    Click Element                    ${depart_july}
     Click Element                    ${returning_selectBox}
     Click Element                    ${return_julynextyear}
     Element Should Be Enabled        ${search_button} 
@@ -61,7 +61,7 @@ User search for flights to Mars that returns for for the next two years from now
     Wait Until Element Is Visible    ${welcome_header}
     Element Should Be Visible        ${departing_label}
     Click Element                    ${departing_selectBox}
-    Click Element                    ${deapart_july}
+    Click Element                    ${depart_july}
     Click Element                    ${returning_selectBox}
     Click Element                    ${return_july2yearsfromnow}
     Element Should Be Enabled        ${search_button} 
