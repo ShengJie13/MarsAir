@@ -3,11 +3,9 @@ Library    SeleniumLibrary
 Resource    ../Pages/basicSearchFlow.robot
 
 *** Variables ***
-${return_dec}                    //select[@id="returning"]/option[text()="December"]
-${schedule_impossible}                          //p[text()="Unfortunately, this schedule is not possible. Please try again."]
-${return_july}                        //select[@id="returning"]/option[text()="July"]
-
-
+${return_dec}                            //select[@id="returning"]/option[text()="December"]
+${schedule_impossible}                   //p[text()="Unfortunately, this schedule is not possible. Please try again."]
+${return_july}                           //select[@id="returning"]/option[text()="July"]
 
 *** Keywords ***
 User search for flights to Mars that return date is less than 1 year from the departure
