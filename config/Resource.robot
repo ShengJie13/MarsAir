@@ -1,2 +1,2 @@
 *** Settings ***
-Resource    ../Pages/storyList.robot
+Resource    ../Pages/basicSearchFlow.robot
